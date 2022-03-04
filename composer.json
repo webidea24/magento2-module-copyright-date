@@ -1,0 +1,20 @@
+{
+    "name": "webidea24/magento2-module-copyright-date",
+    "version": "1.0.0",
+    "description": "With this module you can add the date by variable '{{year}}' to the footer copyright",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": [
+        "Proprietary"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Webidea24\\CopyrightDate\\": ""
+        }
+    }
+}
